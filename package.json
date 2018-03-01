@@ -6,5 +6,11 @@
   "author": "semibran",
   "license": "MIT",
   "main": "lib/fs-tree.js",
-  "keywords": [ "fs", "tree", "recursive" ]
+  "keywords": [
+    "file-system",
+    "filesystem",
+    "fs",
+    "tree",
+    "recursive"
+  ]
 }
