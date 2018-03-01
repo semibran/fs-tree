@@ -63,6 +63,6 @@ write(path, data, err => {
 ## related
 * [`semibran/scaffy`][semibran/scaffy]: tiny project scaffolding tool
 
-[npm badge]:       https://nodei.co/npm/@semibran/vfs.png?mini
-[npm package]:     https://npmjs.com/package/@semibran/vfs
+[npm badge]:       https://nodei.co/npm/@semibran/fs-tree.png?mini
+[npm package]:     https://npmjs.com/package/@semibran/fs-tree
 [semibran/scaffy]: https://github.com/semibran/scaffy
