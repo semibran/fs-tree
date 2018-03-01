@@ -1,10 +1,10 @@
 {
   "name": "@semibran/fs-tree",
   "version": "1.0.0",
-  "description": "speedy reads and writes for file system trees",
-  "repository": "semibran/vfs",
+  "description": "speedy recursive reads and writes for simple file system trees",
+  "repository": "semibran/fs-tree",
   "author": "semibran",
   "license": "MIT",
-  "main": "lib/vfs.js",
-  "keywords": [ "fs" ]
+  "main": "lib/fs-tree.js",
+  "keywords": [ "fs", "tree", "recursive" ]
 }
