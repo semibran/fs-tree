@@ -51,7 +51,7 @@ read(path, (err, data) => {
 ```
 
 ### `write(path, data, callback(err))`
-Writes `data` to the given path, calling `callback` upon completion. Will error if a directory exists at the specified location.
+Writes `data` to the given path, calling `callback` upon completion.
 
 ```js
 write(path, data, err => {
