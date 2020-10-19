@@ -1,6 +1,6 @@
 {
   "name": "@semibran/fs-tree",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "speedy recursive reads and writes for simple file system trees",
   "repository": "semibran/fs-tree",
   "author": "semibran",
