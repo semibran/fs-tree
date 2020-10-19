@@ -40,15 +40,17 @@ Note that this module doesn't handle any kinds of links for simplicity's sake, a
 ## usage
 [![npm badge]][npm package]
 
-### `read(path, callback(err, data))`
+### `read(path[, opts], callback(err, data))`
 Reads the file or folder specified by `path` and returns its data via `callback`.
-
 ```js
 read(path, (err, data) => {
   if (err) throw err
   console.log(path + ": " + JSON.stringify(data, null, 2))
 })
 ```
+
+#### opts
+- `ignore`: file names and file extensions to ignore, e.g. `[ ".git", ".png" ]`
 
 ### `write(path, data, callback(err))`
 Writes `data` to the given path, calling `callback` upon completion.
